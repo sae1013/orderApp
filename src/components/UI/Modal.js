@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Modal.module.css';
 import ReactDOM from 'react-dom';
+
 const backdropClick = () =>{
     console.log('backdrop()')
 }
