@@ -11,7 +11,7 @@ function MealItemForm(props) {
         event.preventDefault();
         const enteredAmount = amountInputRef.current.value // or +를 앞에 붙이면 int형
         const enteredAmountNumber = +amountInputRef.current.value
-        if(enteredAmount.trim().length ==0 || enteredAmountNumber<1 || enteredAmountNumber>5){
+        if(enteredAmount.trim().length ===0 || enteredAmountNumber<1 || enteredAmountNumber>5){
             setAmountIsValid(false);
             return
         }
