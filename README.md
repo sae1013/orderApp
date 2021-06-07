@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Food Order App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 프로젝트 개요
+장바구니에 상품을 추가하고 주문하는 앱 입니다.
+배송지정보를 입력하면 주문된 상품들과 배송지 정보는 파이어베이스에 저장됩니다.
+(결제기능 모듈은 연동하지 않았습니다)
 
-## Available Scripts
+# 기술스택
+Javascript, CSS, React
 
-In the project directory, you can run:
+# 핵심 구현기술
+React - Context Api(데이터 스토어) 
 
-### `yarn start`
+# 동작화면
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. 메인화면
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://user-images.githubusercontent.com/63229394/120959501-dd7d5d80-c794-11eb-96e5-e40d0999039c.png" width="80%" height="80%">
+<br>
+<br>
+2. 장바구니 담기
+<img src=https://user-images.githubusercontent.com/63229394/120959497-dce4c700-c794-11eb-90a7-d1951052d813.png width="80%" height="80%">
+<br>
+<br>
+3. 장바구니 확인
+<img src=https://user-images.githubusercontent.com/63229394/120959493-dc4c3080-c794-11eb-9dd8-214cd19bd393.png width="80%" height="80%">
+<br>
+<br>
+4. 장바구니 모달 & 주문
+<img src=https://user-images.githubusercontent.com/63229394/120959490-db1b0380-c794-11eb-9e5b-d1a39fc1ceb6.png width="80%" height="80%">
+<br>
+<br>
+5. 주문 성공 시 
+<img src=https://user-images.githubusercontent.com/63229394/120959485-d8201300-c794-11eb-9736-ede454c867a3.png width="80%" height="80%"> 
+<br>
+<br>
+6. 장바구니 아이템, 고객정보 파이어베이스 저장
+<img src=https://user-images.githubusercontent.com/63229394/120959484-d6eee600-c794-11eb-95d5-09158e46c788.png width="80%" height="80%">
+ 
