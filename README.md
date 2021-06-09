@@ -12,7 +12,7 @@ Javascript, CSS, React
 React - Context Api(데이터 스토어) 
 
 # 배포(파이어베이스)
-react-order-app-86271.web.app
+> https://react-order-app-86271.web.app
 
 # 동작화면
 
