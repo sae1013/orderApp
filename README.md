@@ -11,6 +11,9 @@ Javascript, CSS, React
 # 핵심 구현기술
 React - Context Api(데이터 스토어) 
 
+# 배포(파이어베이스)
+react-order-app-86271.web.app
+
 # 동작화면
 
 1. 메인화면
